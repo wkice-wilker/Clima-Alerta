@@ -88,7 +88,7 @@ async function enviarEmail(destinatarios) {
   const emailHTML = `
   <html>
   <head>
-  <title>Tempo Certo</title>
+  <title>Clima Alerta</title>
     <style>
     .titulo{
       margin-top: 100px;
@@ -170,7 +170,7 @@ async function enviarEmail(destinatarios) {
       
     </div> 
     <div class="footer">
-      <a class="botao" href="https://tempocerto.web.app/"><font color=#f1b100>Saiba mais</font></a>
+      <a class="botao" href="https://climaalerta.web.app/"><font color=#f1b100>Saiba mais</font></a>
     </div> 
   </body>
 </html>
