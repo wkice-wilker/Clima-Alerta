@@ -299,8 +299,8 @@ body {
     appearance: none;
     margin-right: -15px;
     width: 250px;
-    background-color: #6e9fd7;
-    color: #f3f4fb;
+    background-color: #ffffffb3;
+    color: #000000;
 }
 
 .email-input:focus {

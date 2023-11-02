@@ -772,7 +772,7 @@ function getCityTemp(tempCityName) {
         if (dadoUv === "") {
           dadoUv = "...";
         }
-        
+
         windSpeed.textContent = dadoVento;
         windGust.textContent = dadoRajada;
         windUv.textContent = dadoUv;
@@ -1057,7 +1057,7 @@ function requestsaude(requestCityName) {
           const backgroundColor = window.getComputedStyle(indexStatusColorDiv).backgroundColor;
 
           // Adicione transparência à cor de fundo
-          const rgbaBackgroundColor = `rgba(${backgroundColor.match(/\d+/g).join(', ')}, 0.6)`; // 0.5 é o valor de opacidade
+          const rgbaBackgroundColor = `rgba(${backgroundColor.match(/\d+/g).join(', ')}, 0.9)`; // 0.5 é o valor de opacidade
 
           // Aplique a cor de fundo à div "conteudo-saude"
           conteudoSaudeDiv.style.backgroundColor = rgbaBackgroundColor;
@@ -1160,7 +1160,7 @@ function requestsaude(requestCityName) {
           const backgroundColor = window.getComputedStyle(indexStatusColorDiv).backgroundColor;
 
           // Adicione transparência à cor de fundo
-          const rgbaBackgroundColor = `rgba(${backgroundColor.match(/\d+/g).join(', ')}, 0.6)`; // 0.5 é o valor de opacidade
+          const rgbaBackgroundColor = `rgba(${backgroundColor.match(/\d+/g).join(', ')}, 0.9)`; // 0.5 é o valor de opacidade
 
           // Aplique a cor de fundo à div "conteudo-alergia"
           conteudoSaudeDiv.style.backgroundColor = rgbaBackgroundColor;
@@ -1280,7 +1280,7 @@ function requestsaude(requestCityName) {
           const backgroundColor = window.getComputedStyle(indexStatusColorDiv).backgroundColor;
 
           // Adicione transparência à cor de fundo
-          const rgbaBackgroundColor = `rgba(${backgroundColor.match(/\d+/g).join(', ')}, 0.6)`; // 0.5 é o valor de opacidade
+          const rgbaBackgroundColor = `rgba(${backgroundColor.match(/\d+/g).join(', ')}, 0.9)`; // 0.5 é o valor de opacidade
 
           // Aplique a cor de fundo à div "conteudo-atividade"
           conteudoAtividade.style.backgroundColor = rgbaBackgroundColor;
