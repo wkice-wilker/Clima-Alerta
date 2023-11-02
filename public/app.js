@@ -762,16 +762,17 @@ function getCityTemp(tempCityName) {
             dadoRajada = element.querySelector('div:nth-child(2)').textContent.trim();
           } else if (labelText === "Vento") {
             dadoVento = element.querySelector('div:nth-child(2)').textContent.trim();
-          }
-           if (labelText === "Índice máximo de raios UV") {
+          } else if (labelText === "Índice máximo de raios UV") {
             dadoUv = element.querySelector('div:nth-child(2)').textContent.trim();
-          }else if(!labelText === "Índice máximo de raios UV"){
-            dadoUv = "...";
-          }
-          if (labelText === "RealFeel®") {
+          } else if (labelText === "RealFeel®") {
             dadosensacao = element.querySelector('div:nth-child(2)').textContent.trim();
           }
         }
+      
+        if (dadoUv === "") {
+          dadoUv = "...";
+        }
+        
         windSpeed.textContent = dadoVento;
         windGust.textContent = dadoRajada;
         windUv.textContent = dadoUv;
